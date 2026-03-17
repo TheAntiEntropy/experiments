@@ -18,13 +18,24 @@
             background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
         }
     </style>
+
+<style>
+  .gradient-bg, [class*="gradient"] {
+    background: linear-gradient(135deg, #0a0a0a 0%, #0d2137 50%, #0091ff 100%) !important;
+  }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  a[href="#contact"], a[href="#audit-form"], button[type="submit"], input[type="submit"] {
+    background-color: #0091ff !important; border-color: #0091ff !important;
+  }
+</style>
+
 </head>
 <body class="font-sans antialiased text-gray-800">
     
     <!-- Header / Navigation -->
     <header class="gradient-bg text-white py-4">
         <div class="container mx-auto px-4 flex justify-between items-center">
-            <div class="text-xl font-bold">LegalGrowth Pro</div>
+            <div style="display:flex;align-items:center;gap:12px;"><img src="https://ustechautomations.com/logo-512x512.png" alt="USTA" style="height:36px;"><span class="text-xl font-bold">US Tech Automations</span></div>
             <a href="#contact" class="bg-white text-blue-900 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition">
                 Get Started
             </a>
@@ -229,7 +240,7 @@
     <footer class="bg-gray-900 text-white py-8">
         <div class="container mx-auto px-4 text-center">
             <div class="text-sm text-gray-400">
-                <p>&copy; 2025 LegalGrowth Pro. All rights reserved.</p>
+                <p>&copy; 2025 US Tech Automations. All rights reserved.</p>
                 <p class="mt-2 text-xs">
                     This is an experimental landing page for testing purposes.
                 </p>
